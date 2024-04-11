@@ -43,7 +43,7 @@
 <!-- TODO filter nach Tag "Vortrag"; richtige Section i.S.v widget; showcard format;  -->
 {{ if .File }}
 {{ $username := (path.Base .File.Dir) }}
-{{ $profilemd := printf "%s" (print "/profiles/" $username ".md") -}}
+{{ $profilemd := printf "%s" (print "/profiles/" $username "/index.md") -}}
   {{ if (fileExists $profilemd) }}
   <div class="container">
     <div class="row">
