@@ -94,6 +94,8 @@ sections:
       text:   
       count: 0
       filters:
+        folders:
+          - publication
         author: 'christian.seidel'
         category: ''
         exclude_featured: false
